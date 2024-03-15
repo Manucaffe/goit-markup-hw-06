@@ -344,29 +344,28 @@
     padding: 40px 32px 164px
 }
 
-/*  Footer Container */
+/* Footer Container */
 
-.global-footer {
+.footer-section {
     width: 1440px;
-    height: 312px;
     margin: 0 auto;
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
-.footer-container {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-list {
-    align-items: center;
-    width: 264px;
-    height: 72px;
-    padding-top: 100px;
-}
-
-.footer-list .references {
+.footer-section-style {
     display: flex;
+    gap: 100px;
+}
+
+.footer-section-logo {
+    /* align-items: center;
+    width: 264px;
+    height: 72px; */
+    padding-left: 142px;
+}
+
+.footer-section-logo .references {
     color: #ffffff;
     font-size: 16px;
     line-height: 1.5em;
@@ -374,7 +373,7 @@
     margin-top: 16px;
 }
 
-.footer-list .footer-logo {
+.footer-section-logo .footer-logo {
     display: flex;
     width: 115px;
     height: 24px;
@@ -395,12 +394,11 @@
     padding-bottom: 16px;
 }
 
-.social-container {
-    max-width: 1200px;
-    margin: 0 auto;
+.footer-social-links {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 232px;
+    gap: 16px;
 }
 
 .social-media-text {
@@ -408,20 +406,20 @@
     size: 16px;
     font-weight: 500;
     line-height: 1.5em;
+    padding-left: 8px;
+    width: 264px;
 }
 
 .icons-list-footer {
     display: flex;
-    justify-content: space-evenly;
-    padding-top: 10px;
+    justify-content: space-between;
     padding-bottom: 30px;
-    width: 260px;
-    margin-left: 120px;
+    margin-left: -36px;
 }
 
 .icons-list-footer .icon-bg {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -437,5 +435,77 @@
 
 .social-icons {
     color: var(--cloud);
+
 }
 
+.subscribe-footer {
+    display: flex;
+    flex-direction: column;
+    width: 453px;
+}
+
+.subscribe-email {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+}
+
+.subscribe-email input:active,
+.subscribe-email input:hover {
+    border: 1px solid #404BBF;
+}
+
+.subscribe-email input {
+    position: relative;
+    width: 254px;
+    padding: 8px 16px;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    text-align: left;
+    background-color: transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    outline: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.subscribe-text {
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+}
+
+.subscribe-btn {
+    display: flex;
+    position: relative;
+    width: 165px;
+    height: 40px;
+    padding: 4px 26px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 1.5em;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    margin-top: -41px;
+    margin-left: 284px;
+}
+
+.subscribe-btn svg {
+    margin-top: -61px;
+    margin-left: 18px;
+}
+
+.subscribe-btn:active,
+.subscribe-btn:hover {
+    background-color: var(--link-color-hover);
+    color: #ffffff;
+    transition-timing-function: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}

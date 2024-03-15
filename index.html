@@ -54,22 +54,62 @@
             </div>    
         </header>
 
-        <!-- Modal section -->
-        
-        <div class="modal is-hidden" data-modal>
-            <div class="modal-content">
-                <button class="close-btn" data-modal-close>&times;</button>
-                <p class="continut">Aici va fi continutul temei #6</p>
-            </div>
-        </div>
-        
-        <!-- Hero Image Section -->
-
+        <!-- Hero & Modal section -->
         <section class="hero-background">
-             <div class="hero-container">
-               <h1>Effective Solutions for Your Business</h1>
-               <button class="button" data-modal-open>Order service</button>
-             </div>
+            <div class="hero-container">
+                <h1>Effective Solutions for Your Business
+                </h1>
+                <button class="button" data-modal-open>Order service
+                </button>
+            </div>
+             <div class="modal is-hidden" data-modal>
+                <div class="modal-content">
+                    <button 
+                        type= "button"
+                        class="close-btn"
+                        data-modal-close>&times;
+                    </button>
+                    <h2>Leave your contacts and we will call you back</h2>
+
+                    <div class="input-order-service">
+                        <div class="input-class">
+                            <label for="name">Name</label>
+                            <input type="text" class="input-with-icon" />
+                            <svg class="input-icon">
+                                <use xlink:href="./images/icons.svg#icon-name"></use>
+                            </svg>
+                        </div>
+                    
+                        <div class="input-class">
+                            <label for="phone">Phone</label>
+                            <input type="tel" class="input-with-icon" />
+                            <svg class="input-icon">
+                                <use xlink:href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+                        </div>
+                    
+                        <div class="input-class">
+                            <label for="email">Email</label>
+                            <input type="email" class="input-with-icon" />
+                            <svg class="input-icon">
+                                <use xlink:href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    
+                        <div class="input-class">
+                            <label for="comments">Comments</label>
+                            <textarea placeholder="Text input"></textarea>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" />
+                            <label for="terms">I accept the terms and conditions of the <span>Privacy Policy</span></label>
+                        </div>
+                    </div>
+                    <button type="button" class="send-btn">
+                        Send
+                    </button>
+                </div>
+            </div>
         </section>
 
         <!-- Section 1 - Features -->
@@ -394,48 +434,70 @@
     
     <!-- Footer container -->
 
-    <footer class="global-footer">
-        <div class="footer-container"> 
-            <ul class="footer-list">
+    <footer class="footer-section">
+        <div class="container footer-section-style"> 
+            <div class="footer-section-logo">
                 <a href="./index.html" 
-                class="footer-logo">STUDIO</a>
-                <span class="references">Increase the flow of customers and sales for your business
+                class="footer-logo" rel="noopener noreferrer">STUDIO</a>
+                <p class="references">Increase the flow of customers and sales for your business
                 with digital marketing & growth solutions.
-                </span>
-            </ul>
-            <div class="social-container">
-                <span class="social-media-text">Social media
-                </span>
-            <div class="icons-list-footer">
-                <a href="https://www.instagram.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
-                    aria-label="instagram-link">
-                    <svg class="social-icons" width="24" height="24">
-                        <use href="./images/icons.svg#icon-instagram">
-                        </use>
-                    </svg>
-                </a>
-                <a href="https://www.twitter.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
-                    aria-label="twiter-link">
-                    <svg class="social-icons" width="24" height="24">
-                        <use href="./images/icons.svg#icon-twitter">
-                        </use>
-                    </svg>
-                </a>
-                <a href="https://www.facebook.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
-                    aria-label="facebook-link">
-                    <svg class="social-icons" width="24" height="24">
-                        <use href="./images/icons.svg#icon-facebook">
-                        </use>
-                    </svg>
-                </a>
-                <a href="https://www.linkedin.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
-                    aria-label="linkedin-link">
-                    <svg class="social-icons" width="24" height="24">
-                        <use href="./images/icons.svg#icon-linkedin">
-                        </use>
-                    </svg>
-                </a>
+                </p>
             </div>
+            <div class="footer-social-links">
+                <p class="social-media-text">Social media
+                </p>
+                <ul class="icons-list-footer">
+                    <li>
+                        <a href="https://www.instagram.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
+                            aria-label="instagram-link">
+                            <svg class="social-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram">
+                                </use>
+                            </svg>
+                        </a>
+                    </li> 
+                    <li>
+                        <a href="https://www.twitter.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
+                            aria-label="twiter-link">
+                            <svg class="social-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
+                            aria-label="facebook-link">
+                            <svg class="social-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-facebook">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/" class="icon-bg" target="_self" rel="nofollow noopener noreferrer"
+                            aria-label="linkedin-link">
+                            <svg class="social-icons" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin">
+                                </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="subscribe-footer">
+                <span class="subscribe-text">Subscribe
+                </span>
+                    <div class="subscribe-email">
+                        <input type="email" placeholder="E-mail"/>
+                    </div>
+                    <button type="button" class="subscribe-btn">Subscribe
+                        <svg class="input-icon"> 
+                            <use xlink:href="./images/icons.svg#icon-send"></use>
+                        </svg>
+                    </button>
+            </div>
+        </div> 
     </footer>
     <script src="./js/modal.js"></script>
 </body>
