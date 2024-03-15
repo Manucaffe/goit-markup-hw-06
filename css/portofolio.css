@@ -156,8 +156,7 @@
 .contact-container {
     display: flex;
     height: 24px;
-    /* gap: 30px; */
-    padding-top: 20px;
+    padding-top: 24px;
 }
 
 /* .contact-mail, */

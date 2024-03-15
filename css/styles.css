@@ -175,7 +175,7 @@
 .contact-container {
     display: flex;
     height: 24px;
-    padding-top: 20px;
+    padding-top: 24px;
 }
 
 /* .contact-mail, */
@@ -444,6 +444,14 @@ textarea {
     color: var(--currentcolor);
 }
 
+
+.send-btn:active,
+.send-btn:hover,
+.send-btn:focus {
+    background-color: var(--ocean);
+    color: var(--currentcolor);
+    transition-timing-function: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 /* Features Global Section */
 
